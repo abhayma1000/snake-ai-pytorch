@@ -62,6 +62,8 @@ class SnakeGameAI:
 
 
     def play_step(self, action):
+        print(type(action))
+        print(action)
         self.frame_iteration += 1
         # 1. collect user input
         for event in pygame.event.get():
